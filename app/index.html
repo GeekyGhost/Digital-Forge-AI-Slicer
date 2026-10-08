@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Forge 3D Slicer</title>
+  </head>
+  <body>
+    <div id="app">
+      <header class="topbar">
+        <div class="brand">
+          <svg viewBox="0 0 32 32" aria-hidden="true">
+            <path d="M4 22h24l-3 6H7z" fill="#e8a33d" />
+            <path d="M9 4h14v4l-3 3v8h-8v-8L9 8z" fill="none" stroke="#e2e5e9" stroke-width="2" stroke-linejoin="round" />
+            <path d="M12 15h8" stroke="#e8a33d" stroke-width="2" />
+          </svg>
+          <div class="brand-name">Digital Forge<span>3D Slicer</span></div>
+        </div>
+        <nav class="workspaces" id="workspaces" aria-label="Workspaces"></nav>
+        <div class="topbar-right"><div class="engine-pill" id="engine-pill"><i></i><span>Starting engine</span></div></div>
+      </header>
+      <aside class="outliner" id="outliner" aria-label="Objects"></aside>
+      <main class="stage" id="stage">
+        <div id="viewport"></div>
+        <div class="floating tools-left" id="tools-left"></div>
+        <div class="floating tools-right" id="tools-right"></div>
+        <div class="plate-label" id="plate-label">Anycubic Kobra S1 · 250 × 250 × 250 mm</div>
+        <div class="drop-overlay" id="drop-overlay">Drop models or images to import</div>
+      </main>
+      <aside class="inspector" id="inspector" aria-label="Workspace tools"></aside>
+      <footer class="statusbar" id="statusbar">
+        <span id="status-text">Ready</span>
+        <span id="status-selection"></span>
+        <div class="tasks" id="tasks"></div>
+      </footer>
+    </div>
+    <div class="toasts" id="toasts" aria-live="polite"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

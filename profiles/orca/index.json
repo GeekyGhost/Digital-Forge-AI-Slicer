@@ -1,0 +1,18 @@
+{
+  "machine": [
+    "Anycubic Kobra S1 0.4 nozzle"
+  ],
+  "process": [
+    "0.20mm Standard @Anycubic Kobra S1 0.4 nozzle"
+  ],
+  "filament": [
+    "Anycubic ABS @Anycubic Kobra S1 0.4 nozzle",
+    "Anycubic ASA @Anycubic Kobra S1 0.4 nozzle",
+    "Anycubic PETG @Anycubic Kobra S1 0.4 nozzle",
+    "Anycubic PLA @Anycubic Kobra S1 0.4 nozzle",
+    "Anycubic PLA High Speed @Anycubic Kobra S1 0.4 nozzle",
+    "Anycubic PLA Silk @Anycubic Kobra S1 0.4 nozzle",
+    "Anycubic PLA+ @Anycubic Kobra S1 0.4 nozzle",
+    "Anycubic TPU @Anycubic Kobra S1 0.4 nozzle"
+  ]
+}

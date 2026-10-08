@@ -1,0 +1,13 @@
+# Large or machine-specific content stays out of source control
+runtime/
+models/
+downloads/
+data/
+legacy/
+app/node_modules/
+app/dist/
+app/src-tauri/target/
+app/src-tauri/gen/
+__pycache__/
+*.pyc
+.ruff_cache/

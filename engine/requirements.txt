@@ -1,0 +1,12 @@
+# Direct dependencies of the engine. Exact versions are in requirements.lock.txt.
+numpy
+scipy
+trimesh
+manifold3d      # exact solid booleans (Apache-2.0)
+libigl          # winding numbers, mesh distance (MPL-2.0)
+scikit-image    # marching cubes
+fast-simplification
+networkx
+pillow
+flask
+waitress

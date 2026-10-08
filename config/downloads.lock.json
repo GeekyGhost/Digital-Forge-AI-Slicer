@@ -1,0 +1,74 @@
+{
+  "runtime_release": "v0.8.1",
+  "runtime_source": "pwilkin/trellis.cpp",
+  "model_source": "ilintar/trellis2-gguf",
+  "model_revision": "a57397bd3d351599d9729fc144b3f87c3f87d65b",
+  "assets": [
+    {
+      "url": "https://github.com/pwilkin/trellis.cpp/releases/download/v0.8.1/trellis-cuda-windows-x64.zip",
+      "destination": "downloads/trellis-cuda-windows-x64.zip",
+      "size": 715040905,
+      "sha256": "d2ea7b57174d3bff438064faf0b5fbcc55c29c31e6bba5f41030936fa366ed48"
+    },
+    {
+      "url": "https://huggingface.co/ilintar/trellis2-gguf/resolve/a57397bd3d351599d9729fc144b3f87c3f87d65b/q8/birefnet.gguf",
+      "destination": "models/trellis2/q8/birefnet.gguf",
+      "size": 882749024,
+      "sha256": "10c5dd4dcac904cf81c9a16180eb66f167dd52ab55867f54a44567b0b2babbc1"
+    },
+    {
+      "url": "https://huggingface.co/ilintar/trellis2-gguf/resolve/a57397bd3d351599d9729fc144b3f87c3f87d65b/q8/dinov3.gguf",
+      "destination": "models/trellis2/q8/dinov3.gguf",
+      "size": 323657920,
+      "sha256": "0dd4ffd4b46a248f5b7d49c35275d68461fbf73f57ddb4c1fa8afb4f7bb45a0d"
+    },
+    {
+      "url": "https://huggingface.co/ilintar/trellis2-gguf/resolve/a57397bd3d351599d9729fc144b3f87c3f87d65b/q8/shape_dec.gguf",
+      "destination": "models/trellis2/q8/shape_dec.gguf",
+      "size": 881361568,
+      "sha256": "0de7c7a675022dd8696d526a9279e5a50b2a35c8a79452f434a72dc53d40f169"
+    },
+    {
+      "url": "https://huggingface.co/ilintar/trellis2-gguf/resolve/a57397bd3d351599d9729fc144b3f87c3f87d65b/q8/shape_flow_1024.gguf",
+      "destination": "models/trellis2/q8/shape_flow_1024.gguf",
+      "size": 1376125952,
+      "sha256": "997e9fc10ab95fda11c4cd1cbaf425101980ac36a2ef80e9c83e0b9c4bfc9680"
+    },
+    {
+      "url": "https://huggingface.co/ilintar/trellis2-gguf/resolve/a57397bd3d351599d9729fc144b3f87c3f87d65b/q8/shape_flow_512.gguf",
+      "destination": "models/trellis2/q8/shape_flow_512.gguf",
+      "size": 1376125952,
+      "sha256": "29b639f4ff22ded8f91b619376a835f64b9874b0ebcadb9ac6c305195bf5d1f9"
+    },
+    {
+      "url": "https://huggingface.co/ilintar/trellis2-gguf/resolve/a57397bd3d351599d9729fc144b3f87c3f87d65b/q8/ss_dec.gguf",
+      "destination": "models/trellis2/q8/ss_dec.gguf",
+      "size": 147379392,
+      "sha256": "2790b5eecb261cc877d9bf175ce2bd6dd48cd65be8c042c5f5bc023dfca01cf7"
+    },
+    {
+      "url": "https://huggingface.co/ilintar/trellis2-gguf/resolve/a57397bd3d351599d9729fc144b3f87c3f87d65b/q8/ss_flow.gguf",
+      "destination": "models/trellis2/q8/ss_flow.gguf",
+      "size": 1376059040,
+      "sha256": "ea6d8a42b20661a5c6a52e5ffbdc1df7aca9b212792193873b418c69f871422c"
+    },
+    {
+      "url": "https://huggingface.co/ilintar/trellis2-gguf/resolve/a57397bd3d351599d9729fc144b3f87c3f87d65b/q8/tex_dec.gguf",
+      "destination": "models/trellis2/q8/tex_dec.gguf",
+      "size": 881344576,
+      "sha256": "88b4fced46455e02f316664d5c43584a311921dd9a1cdc1b7b7d981cca9214d4"
+    },
+    {
+      "url": "https://huggingface.co/ilintar/trellis2-gguf/resolve/a57397bd3d351599d9729fc144b3f87c3f87d65b/q8/tex_flow_1024.gguf",
+      "destination": "models/trellis2/q8/tex_flow_1024.gguf",
+      "size": 1376178176,
+      "sha256": "cb2cb3aee74ba09c018f918ed8c146bc7e4f96335b61fa0d1fc1ff1a7811e6da"
+    },
+    {
+      "url": "https://huggingface.co/ilintar/trellis2-gguf/resolve/a57397bd3d351599d9729fc144b3f87c3f87d65b/q8/tex_flow_512.gguf",
+      "destination": "models/trellis2/q8/tex_flow_512.gguf",
+      "size": 1376178176,
+      "sha256": "389a2cbdda59d53b21e5989650d9d36b7ac603266eaef06712cd07a9fc377210"
+    }
+  ]
+}
